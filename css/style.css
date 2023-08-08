@@ -12,6 +12,9 @@ html{
     padding: 0 15px;
     margin: auto;
 }
+::selection{
+    background-color: #71cee389;
+}
 :root{
     --main-color: #71cee3;
     --second-color: #f57827;
@@ -381,7 +384,13 @@ input[type="checkbox"]:checked ~ .box .back{
     width: fit-content;
     position: relative;
     color: var(--dark);
+    cursor: pointer;
 }
+.head h1::selection{
+    background-color: transparent;
+    color: var(--dark);
+}
+
 .head h1::before{
     position: absolute;
     content: "";
@@ -429,6 +438,7 @@ input[type="checkbox"]:checked ~ .box .back{
     -moz-transition: all 0.5s ;
     -ms-transition: all 0.5s ;
     -o-transition: all 0.5s ;
+
 }
 .head p {
     margin-top: -20px;
