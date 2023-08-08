@@ -530,7 +530,7 @@ input[type="checkbox"]:checked ~ .box .back{
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
 }
-@media (max-width:768px) {
+@media (max-width: 992px) {
     .skills .flex .flex-img{
         width: 100%;
     }
