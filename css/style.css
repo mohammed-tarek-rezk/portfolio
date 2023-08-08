@@ -592,4 +592,7 @@ input[type="checkbox"]:checked ~ .box .back{
     -o-transform: scale(1.1);
     box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.204);
 }
+.projects, .skills{
+    padding: 1px 0;
+}
 /* end projects */
