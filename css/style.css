@@ -130,6 +130,7 @@ header .container .box nav ul li form input[type="text"]{
     -ms-border-radius: 20px/ 50%;
     -o-border-radius: 20px/ 50%;
     padding-left:29px ;
+    width: 200px;
 }
 header .container .box nav ul li form span{
     position: absolute;
@@ -200,7 +201,7 @@ header .container .list label{
     }
     header .container .box nav ul li form span {
         position: absolute;
-        left: calc(50% - 109px);
+        left: calc(50% - 90px);
         top: 50%;
 }
 input[type="checkbox"]:checked ~ .box{
@@ -300,6 +301,9 @@ input[type="checkbox"]:checked ~ .box .back{
     }
 }
 @media (max-width: 768px) {
+    .landing{
+        padding: 50px 0;
+    }
     .landing .container{
         flex-wrap: wrap;
         row-gap: 20px;
@@ -317,11 +321,40 @@ input[type="checkbox"]:checked ~ .box .back{
         -o-border-radius: 50%;
     }
     .landing{
-        padding: 100px 0;
+        padding: 50px 0;
         background-image: radial-gradient(circle 400px at 0% 50%,#71cee336 240px,transparent 240px)
                         ,radial-gradient(circle 400px at 0% 50%,#f579275e 120px,transparent 120px)
                         ,radial-gradient(circle 400px at 70% 10%,#f5792739 120px,transparent 120px)
                         ,radial-gradient(circle 400px at 70% 70%,#71cee336 120px,transparent 800px)
                         ,radial-gradient(circle 400px at 80% 70%,#71cee336 120px,transparent 120px);
+    }
+    .landing .landing-text h1{
+        font-size: 35px;
+        font-weight: 600;
+        color: var(--second-color);
+        text-transform: capitalize;
+        margin: 2px 0 10px;
+    }
+    .animation{
+        font-size: 20px;
+        display: block;
+        overflow: hidden;
+        word-break: keep-all;
+        white-space: nowrap;
+        animation: typing 7s steps(45)  infinite ;
+        -webkit-animation: typing 7s steps(45)  infinite ;
+        color: var(--main-color);
+        border-right: 2px solid var(--main-color);
+    }
+    @keyframes typing {
+        0%{
+            width: 0;
+        }
+        50%{
+            width: 320px;
+        }
+        100%{
+            width: 0;
+        }
     }
 }
