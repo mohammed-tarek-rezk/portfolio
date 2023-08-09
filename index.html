@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- linking for font awsome -->
     <script src="https://kit.fontawesome.com/ceb4f6e340.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
     <!-- linking for google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,9 +36,9 @@
                             <li><a href="#about">about</a></li>
                             <li><a href="#skills">skills</a></li>
                             <li><a href="#projects">project</a></li>
-                            <li><a href="#">contact us</a></li>
-                            <li><form method="post">
-                                <input type="text" placeholder="search here">
+                            <li><a href="#contact">contact us</a></li>
+                            <li><form method="get">
+                                <input type="text" placeholder="search here" name="search">
                                 <span><i class="fas fa-search"></i></span>
                             </form></li>
                         </ul>
@@ -58,6 +59,12 @@
                 <p class="hello">hello,it is me</p>
                 <h1>mohamed tarek</h1>
                 <p class="type"><span class="animation"> material engineer,web designer.</span></p>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100016827072658" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://t.me/mohamedtarek229" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a href="https://wa.me/0201023069980" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mohamed-tarek-rezk/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -124,5 +131,68 @@
         </div>
     </div>
     <!-- end projects  -->
+    <!-- start contact us -->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="head">
+                <h1>contact us</h1>
+                <p>please fill this form to contact with us.</p>
+            </div>
+            <form>
+                <div class="logo"><a href="#">rezk</a></div>
+                <div>
+                    <input type="text" id="name" >
+                    <label for="name">name</label>
+                </div>
+                <div>
+                    <input type="text" id="email" >
+                    <label for="email">email</label>
+                </div>
+                <div>
+                    <input type="text" id="phone" >
+                    <label for="phone">phone number</label>
+                </div>
+                <div>
+                    <textarea name="message" id="message"></textarea>
+                    <label for="messege">your massage</label>
+                </div>
+                <input type="submit">
+                <span></span>
+                <span></span>
+            </form>
+        </div>
+    </div>
+    <!-- end contact us -->
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="logo"><a href="#">rezk</a></div>
+            <div class="grid-footer">
+                <div>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#skills">skills</a></li>
+                        <li><a href="#projects">project</a></li>
+                        <li><a href="#contact">contact us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>contact me</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100016827072658" target="_blank"><i class="fa-brands fa-facebook"></i> facebook</a></li>
+                        <li><a href="https://t.me/mohamedtarek229" target="_blank"><i class="fa-brands fa-twitter"></i> twitter</a></li>
+                        <li><a href="https://wa.me/0201023069980" target="_blank"><i class="fa-brands fa-whatsapp"></i> whatsapp</a></li>
+                        <li><a href="https://www.linkedin.com/in/mohamed-tarek-rezk/" target="_blank"><i class="fa-brands fa-linkedin"></i> linked in</a></li>
+                    </ul>
+                </div>
+                <div class="area">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13685.910864831047!2d31.24498829939273!3d30.95714829282131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f7a2a4c9783985%3A0x9a43c232ea61c1ec!2sMinyet%20Samannoud%2C%20Menyet%20Samannoud%2C%20Aga%2C%20Dakahlia%20Governorate!5e0!3m2!1sen!2seg!4v1691596041244!5m2!1sen!2seg" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer  -->
+
 </body>
 </html>
