@@ -802,7 +802,7 @@ input[type="checkbox"]:checked ~ .box .back{
     -webkit-filter: blur(60px);
     z-index: -1;
 }
-form span:last-of-type{
+.contact form span:last-of-type{
     inset: 10px;
     position: absolute;
     top: 0;
